@@ -7,7 +7,6 @@
 //
 
 import Foundation
-import Swime
 
 #if os(iOS) || os(watchOS) || os(tvOS)
     import UIKit.UIImage

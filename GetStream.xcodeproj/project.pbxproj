@@ -3,17 +3,20 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 47;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D3FBB932924EC180097A7E8 /* Starscream in Frameworks */ = {isa = PBXBuildFile; productRef = 0D3FBB922924EC180097A7E8 /* Starscream */; };
+		0D3FBB962924EC7E0097A7E8 /* Starscream in Frameworks */ = {isa = PBXBuildFile; productRef = 0D3FBB952924EC7E0097A7E8 /* Starscream */; };
+		0D3FBB992924ED740097A7E8 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = 0D3FBB982924ED740097A7E8 /* Moya */; };
+		0D3FBB9B2924EF530097A7E8 /* Swime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3FBB9A2924EE270097A7E8 /* Swime.swift */; };
 		52D6D9871BEFF229002C0205 /* GetStream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6D97C1BEFF229002C0205 /* GetStream.framework */; };
 		8A0116A92212D54200503A07 /* ReactionKind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0116A82212D54200503A07 /* ReactionKind.swift */; };
 		8A0116AB2212D65500503A07 /* ReactionExtraDataProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0116AA2212D65500503A07 /* ReactionExtraDataProtocol.swift */; };
 		8A0116AD22131F3300503A07 /* Reactionable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0116AC22131F3300503A07 /* Reactionable.swift */; };
 		8A0935AA21AC012900C64488 /* Faye.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A0935A121AC012900C64488 /* Faye.framework */; };
 		8A0935C321AC030400C64488 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0935C221AC030400C64488 /* Client.swift */; };
-		8A0935CB21AC05AD00C64488 /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A0935CA21AC05AD00C64488 /* Starscream.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		8A0940B822369F7900FF407D /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0940B722369F7900FF407D /* Activity.swift */; };
 		8A0AD18321C8F72800A3167D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0AD18221C8F72800A3167D /* User.swift */; };
 		8A0AD18621C906D600A3167D /* Client+Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0AD18521C906D600A3167D /* Client+Collection.swift */; };
@@ -40,8 +43,6 @@
 		8A33F72E21B16AEF006399A6 /* Faye.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A0935A121AC012900C64488 /* Faye.framework */; };
 		8A38A63B21AE915000976D54 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A38A63A21AE915000976D54 /* Message.swift */; };
 		8A38A63D21AE929400976D54 /* ChannelName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A38A63C21AE929400976D54 /* ChannelName.swift */; };
-		8A391C5921AC0AF700F645CC /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AA6BEB5219D711E005B9C98 /* Moya.framework */; };
-		8A391C5D21AC0AFE00F645CC /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AA6BEB6219D711E005B9C98 /* Alamofire.framework */; };
 		8A391C6621AC143500F645CC /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A391C6521AC143500F645CC /* Channel.swift */; };
 		8A3A4906219C68810010D831 /* ClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3A4905219C68810010D831 /* ClientTests.swift */; };
 		8A411C2A21C3D38E001BE61F /* Reactions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A411C2921C3D38E001BE61F /* Reactions.swift */; };
@@ -86,7 +87,6 @@
 		8ABC207E21BE5D680033EE8F /* ImageProcess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABC207D21BE5D680033EE8F /* ImageProcess.swift */; };
 		8ABF0CEE239E62BB00F0C529 /* Client+Setup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABF0CED239E62BB00F0C529 /* Client+Setup.swift */; };
 		8ABF0CF1239FEAD100F0C529 /* Result+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABF0CF0239FEAD100F0C529 /* Result+Extensions.swift */; };
-		8ACD0E8321BFEC9100B7CC4E /* Swime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ACD0E8221BFEC9100B7CC4E /* Swime.framework */; };
 		8AD1A0FA21DCFEA800996BE6 /* Feed+Following.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD1A0F921DCFEA800996BE6 /* Feed+Following.swift */; };
 		8AD458B921DE5605007C51B5 /* Client+Faye.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE491A121B13FDA008F9036 /* Client+Faye.swift */; };
 		8ADCEE88219ECF78001598C1 /* Client+Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADCEE87219ECF78001598C1 /* Client+Activity.swift */; };
@@ -126,6 +126,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D3FBB9A2924EE270097A7E8 /* Swime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swime.swift; sourceTree = "<group>"; };
 		52D6D97C1BEFF229002C0205 /* GetStream.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GetStream.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52D6D9861BEFF229002C0205 /* GetStream-iOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GetStream-iOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A0116A82212D54200503A07 /* ReactionKind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactionKind.swift; sourceTree = "<group>"; };
@@ -136,7 +137,6 @@
 		8A0935C221AC030400C64488 /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
 		8A0935C421AC038000C64488 /* Faye.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Faye.plist; sourceTree = "<group>"; };
 		8A0935C621AC038700C64488 /* FayeTests.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FayeTests.plist; sourceTree = "<group>"; };
-		8A0935CA21AC05AD00C64488 /* Starscream.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Starscream.framework; path = Carthage/Build/iOS/Starscream.framework; sourceTree = "<group>"; };
 		8A0940B722369F7900FF407D /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
 		8A0AD18221C8F72800A3167D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		8A0AD18521C906D600A3167D /* Client+Collection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Client+Collection.swift"; sourceTree = "<group>"; };
@@ -202,9 +202,6 @@
 		8A8AFEFD21AC07B800A1D512 /* FayeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FayeTests.swift; sourceTree = "<group>"; };
 		8A92B1DF219ACDEB0043B8DC /* ActivityProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityProtocol.swift; sourceTree = "<group>"; };
 		8A9A71552237D1FF004E6607 /* OriginalRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriginalRepresentable.swift; sourceTree = "<group>"; };
-		8AA6BEB5219D711E005B9C98 /* Moya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Moya.framework; path = Carthage/Build/iOS/Moya.framework; sourceTree = "<group>"; };
-		8AA6BEB6219D711E005B9C98 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
-		8AA6BEB8219D711F005B9C98 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
 		8AAD3E7221E8C4C500FDB25D /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
 		8AAD3E7421E8EB3B00FDB25D /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		8AAEE3F1221ABB0800327FCB /* Feed+Faye.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Feed+Faye.swift"; sourceTree = "<group>"; };
@@ -214,10 +211,8 @@
 		8ABC207D21BE5D680033EE8F /* ImageProcess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageProcess.swift; sourceTree = "<group>"; };
 		8ABF0CED239E62BB00F0C529 /* Client+Setup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Client+Setup.swift"; sourceTree = "<group>"; };
 		8ABF0CF0239FEAD100F0C529 /* Result+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Result+Extensions.swift"; sourceTree = "<group>"; };
-		8ACD0E8221BFEC9100B7CC4E /* Swime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Swime.framework; path = Carthage/Build/iOS/Swime.framework; sourceTree = "<group>"; };
 		8AD1A0F721DCF51800996BE6 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
 		8AD1A0F921DCFEA800996BE6 /* Feed+Following.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Feed+Following.swift"; sourceTree = "<group>"; };
-		8AD1A0FB21DD063900996BE6 /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = SOURCE_ROOT; };
 		8ADCEE87219ECF78001598C1 /* Client+Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Client+Activity.swift"; sourceTree = "<group>"; };
 		8ADCEE8C219ECFD1001598C1 /* ActivityEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityEndpoint.swift; sourceTree = "<group>"; };
 		8AE491A121B13FDA008F9036 /* Client+Faye.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Client+Faye.swift"; sourceTree = "<group>"; };
@@ -239,9 +234,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A33F72E21B16AEF006399A6 /* Faye.framework in Frameworks */,
-				8A391C5921AC0AF700F645CC /* Moya.framework in Frameworks */,
-				8A391C5D21AC0AFE00F645CC /* Alamofire.framework in Frameworks */,
-				8ACD0E8321BFEC9100B7CC4E /* Swime.framework in Frameworks */,
+				0D3FBB932924EC180097A7E8 /* Starscream in Frameworks */,
+				0D3FBB992924ED740097A7E8 /* Moya in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,7 +251,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A0935CB21AC05AD00C64488 /* Starscream.framework in Frameworks */,
+				0D3FBB962924EC7E0097A7E8 /* Starscream in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +266,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D3FBB942924EC7E0097A7E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		52D6D9721BEFF229002C0205 = {
 			isa = PBXGroup;
 			children = (
@@ -279,10 +280,10 @@
 				8A0935A221AC012900C64488 /* Faye */,
 				8A7B688D21A6F32A00062FBD /* Tests */,
 				52D6D99C1BEFF38C002C0205 /* Configs */,
-				8AA6BEB4219D7087005B9C98 /* Frameworks */,
 				52D6D97D1BEFF229002C0205 /* Products */,
 				8A79F98421D67FD500C58F40 /* README.md */,
 				8AD1A0F721DCF51800996BE6 /* LICENSE */,
+				0D3FBB942924EC7E0097A7E8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -305,7 +306,6 @@
 				8A7B688F21A6F5AB00062FBD /* Package.swift */,
 				8A6DE4D9219C5CB8001DF2A8 /* GetStream.podspec */,
 				8A4B11EF21DD340B00D19ADB /* Faye.podspec */,
-				8AD1A0FB21DD063900996BE6 /* Cartfile */,
 			);
 			path = Configs;
 			sourceTree = "<group>";
@@ -523,18 +523,6 @@
 			path = Faye;
 			sourceTree = "<group>";
 		};
-		8AA6BEB4219D7087005B9C98 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				8AA6BEB6219D711E005B9C98 /* Alamofire.framework */,
-				8AA6BEB5219D711E005B9C98 /* Moya.framework */,
-				8AA6BEB8219D711F005B9C98 /* Result.framework */,
-				8ACD0E8221BFEC9100B7CC4E /* Swime.framework */,
-				8A0935CA21AC05AD00C64488 /* Starscream.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		8ABC207621BAB8120033EE8F /* Files and Images */ = {
 			isa = PBXGroup;
 			children = (
@@ -543,6 +531,7 @@
 				8AF44DD021C29ADB00A3A7B4 /* Result+ParseUpload.swift */,
 				8AAD3E7421E8EB3B00FDB25D /* File.swift */,
 				8ABC207D21BE5D680033EE8F /* ImageProcess.swift */,
+				0D3FBB9A2924EE270097A7E8 /* Swime.swift */,
 				8A73F3202239067C00FB4F25 /* Swime+Extensions.swift */,
 			);
 			path = "Files and Images";
@@ -635,7 +624,6 @@
 				52D6D9781BEFF229002C0205 /* Frameworks */,
 				52D6D9791BEFF229002C0205 /* Headers */,
 				52D6D97A1BEFF229002C0205 /* Resources */,
-				8ABEAC6821B0281300D9171F /* Carthage */,
 			);
 			buildRules = (
 			);
@@ -643,6 +631,10 @@
 				8A8AA17C21B170B200870040 /* PBXTargetDependency */,
 			);
 			name = "GetStream-iOS";
+			packageProductDependencies = (
+				0D3FBB922924EC180097A7E8 /* Starscream */,
+				0D3FBB982924ED740097A7E8 /* Moya */,
+			);
 			productName = GetStream;
 			productReference = 52D6D97C1BEFF229002C0205 /* GetStream.framework */;
 			productType = "com.apple.product-type.framework";
@@ -673,13 +665,15 @@
 				8A09359D21AC012900C64488 /* Sources */,
 				8A09359E21AC012900C64488 /* Frameworks */,
 				8A09359F21AC012900C64488 /* Resources */,
-				8ABEAC6921B0283500D9171F /* Carthage */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = Faye;
+			packageProductDependencies = (
+				0D3FBB952924EC7E0097A7E8 /* Starscream */,
+			);
 			productName = Faye;
 			productReference = 8A0935A121AC012900C64488 /* Faye.framework */;
 			productType = "com.apple.product-type.framework";
@@ -733,7 +727,7 @@
 				};
 			};
 			buildConfigurationList = 52D6D9761BEFF229002C0205 /* Build configuration list for PBXProject "GetStream" */;
-			compatibilityVersion = "Xcode 6.3";
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -742,6 +736,10 @@
 				Base,
 			);
 			mainGroup = 52D6D9721BEFF229002C0205;
+			packageReferences = (
+				0D3FBB912924EC180097A7E8 /* XCRemoteSwiftPackageReference "Starscream" */,
+				0D3FBB972924ED740097A7E8 /* XCRemoteSwiftPackageReference "Moya" */,
+			);
 			productRefGroup = 52D6D97D1BEFF229002C0205 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -785,53 +783,6 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		8ABEAC6821B0281300D9171F /* Carthage */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/Moya.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/Swime.framework",
-			);
-			name = Carthage;
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Alamofire.framework",
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Moya.framework",
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Swime.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks\n\n";
-		};
-		8ABEAC6921B0283500D9171F /* Carthage */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/Starscream.framework",
-			);
-			name = Carthage;
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Starscream.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		52D6D9771BEFF229002C0205 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -862,6 +813,7 @@
 				8A2856E321BFF70A0091A977 /* OpenGraphEndpoint.swift in Sources */,
 				8A411C2D21C4047F001BE61F /* Client+User.swift in Sources */,
 				8ABF0CF1239FEAD100F0C529 /* Result+Extensions.swift in Sources */,
+				0D3FBB9B2924EF530097A7E8 /* Swime.swift in Sources */,
 				8A0AD18E21C9099F00A3167D /* CollectionObject.swift in Sources */,
 				8A6283FD2199AEE20002913D /* Feed.swift in Sources */,
 				8A0AD19921CBC9BD00A3167D /* FlatFeed.swift in Sources */,
@@ -1016,7 +968,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				SDKROOT = iphoneos;
@@ -1073,7 +1025,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
@@ -1101,7 +1053,11 @@
 				);
 				INFOPLIST_FILE = Configs/GetStream.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 2.2.5;
 				PRODUCT_BUNDLE_IDENTIFIER = io.getstream.GetStream;
 				PRODUCT_NAME = GetStream;
@@ -1124,12 +1080,17 @@
 				);
 				INFOPLIST_FILE = Configs/GetStream.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 2.2.5;
 				PRODUCT_BUNDLE_IDENTIFIER = io.getstream.GetStream;
 				PRODUCT_NAME = GetStream;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 			};
 			name = Release;
 		};
@@ -1140,7 +1101,12 @@
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Configs/GetStreamTests.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(SRCROOT)/Carthage/Build/iOS";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+					"$(SRCROOT)/Carthage/Build/iOS",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.GetStream.GetStream-iOS-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -1154,10 +1120,16 @@
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Configs/GetStreamTests.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(SRCROOT)/Carthage/Build/iOS";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+					"$(SRCROOT)/Carthage/Build/iOS",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.GetStream.GetStream-iOS-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 			};
 			name = Release;
 		};
@@ -1178,8 +1150,12 @@
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = Configs/Faye.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 2.2.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -1209,14 +1185,19 @@
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = Configs/Faye.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 2.2.5;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = io.getstream.Faye;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -1235,8 +1216,13 @@
 				DEVELOPMENT_TEAM = "";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = Configs/FayeTests.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(SRCROOT)/Carthage/Build/iOS";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+					"$(SRCROOT)/Carthage/Build/iOS",
+				);
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = io.getstream.FayeTests;
@@ -1261,12 +1247,18 @@
 				DEVELOPMENT_TEAM = "";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = Configs/FayeTests.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(SRCROOT)/Carthage/Build/iOS";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+					"$(SRCROOT)/Carthage/Build/iOS",
+				);
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = io.getstream.FayeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -1320,6 +1312,43 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0D3FBB912924EC180097A7E8 /* XCRemoteSwiftPackageReference "Starscream" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/daltoniam/Starscream.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+		0D3FBB972924ED740097A7E8 /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 14.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0D3FBB922924EC180097A7E8 /* Starscream */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0D3FBB912924EC180097A7E8 /* XCRemoteSwiftPackageReference "Starscream" */;
+			productName = Starscream;
+		};
+		0D3FBB952924EC7E0097A7E8 /* Starscream */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0D3FBB912924EC180097A7E8 /* XCRemoteSwiftPackageReference "Starscream" */;
+			productName = Starscream;
+		};
+		0D3FBB982924ED740097A7E8 /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0D3FBB972924ED740097A7E8 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 52D6D9731BEFF229002C0205 /* Project object */;
 }

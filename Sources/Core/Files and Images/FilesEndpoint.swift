@@ -8,7 +8,6 @@
 
 import Foundation
 import Moya
-import Swime
 
 enum FilesEndpoint {
     case uploadFile(_ file: File)
