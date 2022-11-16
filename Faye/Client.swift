@@ -143,7 +143,8 @@ extension Client {
 extension Client: WebSocketDelegate {
     public func didReceive(event: Starscream.WebSocketEvent, client: Starscream.WebSocket) {
         switch event {
-        case .connected(let headers):
+            // let headers is unused
+        case .connected:
             isWebSocketConnected = true
             do {
                 try webSocketWrite(.handshake)
@@ -185,7 +186,7 @@ extension Client: WebSocketDelegate {
             log("❌ WS Disconnect: CANCELLED")
         case .error(let error):
             isWebSocketConnected = false
-            log("❌ WS Disconnect with error: \(error)")
+            log("❌ WS Disconnect with error: \(String(describing: error))")
             //handleError(error)
         }
     }

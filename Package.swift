@@ -17,7 +17,7 @@ let package = Package(
         .package(url: "https://github.com/daltoniam/Starscream.git", .upToNextMajor(from: "4.0.0")),
     ],
     targets: [
-        .target(name: "GetStream", dependencies: ["Moya", "Faye"], path: "Sources", exclude: ["Token"]),
+        .target(name: "GetStream", dependencies: ["Moya", "Faye"], path: "Source", exclude: ["Token"]),
         .target(name: "Faye", dependencies: ["Starscream"], path: "Faye"),
         .testTarget(name: "GetStreamTests", dependencies: ["GetStream"], path: "Tests", exclude: ["Token"]),
     ]

@@ -114,7 +114,7 @@ open class EnrichedActivity<ActorType: Enrichable, ObjectType: Enrichable, React
 // MARK: - Description
 
 extension EnrichedActivity: CustomStringConvertible {
-    open var description: String {
+    public var description: String {
         return "\(type(of: self))<id: \(id.isEmpty ? "n/a" : id), fid: \(foreignId ?? "n/a")>\n"
             + "\(actor.referenceId) \(verb) \(object.referenceId) at \(time?.description ?? "<n/a>")\n"
             + "feedIds: \(feedIds?.description ?? "[]")\n"
