@@ -64,9 +64,9 @@ extension Feed {
                 Client.fayeClient.connect()
             } else {
                 print("❌", #function, error)
-                callbackQueue.async { subscription(.failure(.fayeClient(error))) }
             }
-            
+            callbackQueue.async { subscription(.failure(.fayeClient(error))) }
+
         } catch {
             print("❌", #function, error)
             callbackQueue.async { subscription(.failure(.unexpected(error))) }
